@@ -19,7 +19,7 @@ else:
 for znak in tekst:
     if znak.isalpha():
         litery += 1
-    if znak.isdigit():
+    elif znak.isdigit():
         cyfry += 1
 
 print(f"Liczba liter: {litery}, Liczba cyfr: {cyfry}")        
